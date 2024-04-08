@@ -3,7 +3,7 @@
   height: 70px;
   width: 298.8px;
   position: relative;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 /* Estilos para el elemento con la clase "sobre-m" */
