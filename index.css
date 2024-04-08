@@ -1,0 +1,333 @@
+/* Estilos para el icono del logo 1 */
+.logo-1-icon {
+  height: 70px;
+  width: 298.8px;
+  position: relative;
+  object-fit: cover;
+}
+
+/* Estilos para el elemento con la clase "sobre-m" */
+.sobre-m {
+  height: 36px;
+  width: 109px;
+  position: relative;
+  font-weight: 600;
+  color: var(--celeste);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Estilos para el elemento con la clase "educacion" */
+.educacion {
+  width: 128px;
+}
+
+/* Estilos para los elementos con las clases "educacion", "habilidades" y "logros" */
+.educacion,
+.habilidades,
+.logros {
+  height: 36px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Estilos para el elemento con la clase "habilidades" */
+.habilidades {
+  flex: 1;
+}
+
+/* Estilos para el elemento con la clase "logros" */
+.logros {
+  min-width: 81px;
+}
+
+/* Estilos para los elementos con las clases "encabezado" y "frame-accesos" */
+.encabezado,
+.frame-accesos {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+
+/* Estilos para el elemento con la clase "frame-accesos" */
+.frame-accesos {
+  margin: 0;
+  width: 561px;
+  justify-content: flex-end;
+  gap: 32px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--letras);
+  font-family: var(--font-poppins);
+}
+
+/* Estilos para el elemento con la clase "encabezado" */
+.encabezado {
+  align-self: stretch;
+  height: 100px;
+  background-color: var(--background);
+  justify-content: space-between;
+  padding: 15px var(--padding-61xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+}
+
+/* Estilos para el elemento con la clase "sobre-m1" */
+.sobre-m1 {
+  margin: 0;
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+
+/* Estilos para los elementos con las clases "qu-tal-soy" y "qu-tal-soy-john-corts-un-e" */
+.qu-tal-soy,
+.qu-tal-soy-john-corts-un-e {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+}
+
+/* Estilos para el elemento con la clase "durante-mi-trayectoria" */
+.durante-mi-trayectoria {
+  white-space: pre-wrap;
+}
+
+/* Estilos para los elementos con las clases "durante-mi-trayectoria" y "durante-mi-trayectoria-acadmi" */
+.durante-mi-trayectoria,
+.durante-mi-trayectoria-acadmi {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+}
+
+/* Estilos para el elemento con la clase "creo-firmemente-en" */
+.creo-firmemente-en {
+  margin: 0;
+}
+
+/* Estilos para el contenedor del párrafo "parrafo-sobre-m" */
+.parrafo-sobre-m-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+  color: var(--letras);
+  text-align: justify;
+}
+
+/* Estilos para el elemento con la clase "frame-sobre-m" */
+.frame-sobre-m {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 68.5px 0;
+  box-sizing: border-box;
+  gap: 40px;
+  min-width: 543px;
+  max-width: 100%;
+}
+
+/* Estilos para el icono del perfil naranja */
+.perfil-naranja-1-icon {
+  height: 660px;
+  width: 324.2px;
+  position: relative;
+  border-radius: 13.07px;
+  object-fit: cover;
+  max-height: 660px;
+  max-width: 100%;
+}
+
+/* Estilos para el elemento con la clase "cuerpo" */
+.cuerpo {
+  align-self: stretch;
+  background-color: var(--background);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-61xl);
+  box-sizing: border-box;
+  gap: 120px;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 64px;
+  color: var(--celeste);
+  font-family: var(--font-poppins);
+}
+
+/* Estilos para los iconos de Gmail y LinkedIn */
+.gmail-logo-icon,
+.logo-linkedin-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  min-height: 50px;
+}
+
+/* Estilos para el icono de Gmail */
+.gmail-logo-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* Estilos para el icono de Instagram */
+.instagram-logo-icon {
+  z-index: unset;
+}
+
+/* Estilos para los iconos de Instagram y WhatsApp */
+.instagram-logo-icon,
+.whatsapp-logo-icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 50px;
+}
+
+/* Estilos para el contenedor de los iconos de contacto */
+.frame-contactos {
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 260px;
+}
+
+/* Estilos para el icono del logo c1 */
+.logo-c-1-icon {
+  height: 80px;
+  width: 344px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Estilos para los elementos con las clases "desktop-1" y "pie-de-pagina" */
+.desktop-1,
+.pie-de-pagina {
+  overflow: hidden;
+  display: flex;
+}
+
+/* Estilos para el elemento con la clase "pie-de-pagina" */
+.pie-de-pagina {
+  align-self: stretch;
+  background-color: var(--background);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+
+/* Estilos para el elemento con la clase "desktop-1" */
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+
+/* Media queries */
+@media screen and (max-width: 1125px) {
+  .perfil-naranja-1-icon {
+    flex: 1;
+  }
+  .cuerpo {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .frame-accesos {
+    display: none;
+  }
+  .encabezado {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .sobre-m1 {
+    font-size: 51px;
+  }
+  .cuerpo {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .frame-contactos {
+    flex: 1;
+  }
+  .pie-de-pagina {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .frame-accesos {
+    gap: 32px 16px;
+  }
+  .frame-sobre-m {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .cuerpo {
+    gap: 120px 60px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sobre-m1 {
+    font-size: 38px;
+  }
+  .parrafo-sobre-m-container {
+    font-size: 19px;
+  }
+  .frame-sobre-m {
+    gap: 20px 40px;
+  }
+  .cuerpo {
+    gap: 120px 30px;
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
